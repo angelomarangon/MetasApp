@@ -1,0 +1,14 @@
+.contenedor-principal{
+    height: calc(100vh - theme('height.main'));
+    @apply flex;
+}
+
+.aside{
+    @apply flex flex-col basis-3/12 shadow text-gray-700 bg-gray-100 h-full;
+}
+
+.main{
+    @apply basis-3/4 text-center nm-convex-gray-100 h-full overflow-scroll;
+}
+
+/* bg-gradient-to-tl from-gray-300 */

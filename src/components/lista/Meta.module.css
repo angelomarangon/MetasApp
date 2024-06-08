@@ -1,0 +1,16 @@
+
+.meta{
+    @apply flex justify-between p-3
+}
+
+.icono{
+    @apply nm-inset-gray-100 w-10 h-10 rounded-full flex items-center justify-center text-xl
+}
+
+.barra1{
+    @apply mr-7 mt-0.5 w-40 h-1.5 rounded nm-convex-gray-100;
+}
+
+.barra2{
+    @apply mr-7 h-1.5 bg-gradient-to-l from-purple-500 to-pink-300 rounded-xl;
+}

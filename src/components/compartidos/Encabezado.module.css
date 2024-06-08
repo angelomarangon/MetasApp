@@ -1,0 +1,20 @@
+.encabezado{
+    @apply h-xl flex justify-between items-center shadow bg-white text-gray-700 relative;
+}
+
+.logo_contenedor{
+    @apply flex pl-4 items-center;
+}
+.logo_img{
+    @apply h-10 w-10 mr-2
+}
+.logo_titulo{
+    @apply text-xl font-semibold text-gray-700
+}
+.usuario_vinculo{
+    @apply flex items-center px-4 h-xl hover:bg-gray-200
+}
+
+.usuario_icono{
+    @apply h-6 w-6
+}
